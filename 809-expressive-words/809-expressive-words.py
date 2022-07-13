@@ -25,7 +25,7 @@ class Solution:
                     return False
                 elif letter1['count'] != letter2['count'] and letter1['count'] < 3:
                     return False
-                elif letter1['count'] < letter2['count'] and letter1['count'] <= 3:
+                elif letter1['count'] < letter2['count'] and letter1['count'] >= 3:
                     return False
             return True
         
